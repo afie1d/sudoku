@@ -5,6 +5,8 @@ This project examines two approaches to solving sudoku puzzles:
 
 # Results
 
+The backtracking algorithm provides guaranteed accuracy, but struggles with speed. 9x9 sudokus can be solved in less than a second, but 16x16 and larger take hours and days. 
+The CNN approach provides fast results, regardless of the size. However, it of course suffers in accuracy due to a limited dataset and the inherent nature of neural networks. 
 
 # Comment on Backtracking Algorithm
 In what sense is this program intelligent?
