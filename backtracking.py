@@ -1,13 +1,6 @@
 import sys
 import math
 
-###################
-#   CSSE 413 AI
-#   Sudoku CSP Solution
-#   Adam Field
-#   03/08/2024
-###################
-
 class Sudoku:
     def __init__(self, filename):
         self.board_size = 0
@@ -118,6 +111,6 @@ class Variable:
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python sudoku.py <filename>")
+        print("Usage: python backtracking.py <filename>")
         sys.exit(1)
     Sudoku(sys.argv[1])
